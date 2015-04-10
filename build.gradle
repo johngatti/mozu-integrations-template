@@ -61,8 +61,6 @@ dependencies {
     compile group: 'org.springframework', name: 'spring-webmvc', version: springVersion
     compile group: 'org.springframework', name: 'spring-test', version: springVersion
 
-    compile ("com.mozu:mozu-api-logger:1.0.0")
-    
     compile ("com.mozu:mozu-api-toolkit:1.0.18") {
     	 exclude group: 'mysql'
         exclude group: 'xerces'
